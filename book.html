@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <style>
+        h1 {
+            color: green;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>SAWEN ONLINE LIBRARY</h1>
+    <p>AUTHORIZED BY SAWEN</p>
+
+    <form action="/plx/LibServlet" method="post">
+
+
+        <table>
+            <tr>
+                <td>BOOK NAME:</td>
+                <td><input type="text" name="bookName" required></td>
+            </tr>
+            <tr>
+                <td>ISBN :</td>
+                <td><input type="text" name="isbn" required></td>
+            </tr>
+            <tr>
+                <td>AUTHOR:</td>
+                <td><input type="text" name="author" required></td>
+            </tr>
+         
+        </table><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
